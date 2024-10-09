@@ -3,3 +3,4 @@
 !.project-metadata.yaml
 .env
 /myenv
+__pycache__/
