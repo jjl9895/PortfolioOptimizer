@@ -1,4 +1,4 @@
-from vectorDB.vectorizer import VectorStore
+from vectorDB.vectorizer import Vectorizer
 from model.model_interface import model_call
 
 class InvestmentRecommender:
