@@ -73,18 +73,24 @@ if __name__ == "__main__":
     query = "What's a good investment strategy given the current market conditions?"
     recommendation = recommender.get_recommendation(query, user_id, risk_profile)
     print(f"Query: {query}\n")
-    print(f"Recommendation: {recommendation}")
+    print(f"Recommendation: ")
+    print(recommendation)
+    # for chunk in recommendation:
+    #     if chunk.choices[0].delta.content is not None:
+    #         print(chunk.choices[0].delta.content, end="")
 
     # Now, let's assume the user has responded to this recommendation
     # This would typically be called separately, after the user has made a decision
     user_response = "yes"  # or "no"
     if recommendation:  # Only store if we have a valid recommendation
+        print("TRIAL")
         recommender.store_user_response(recommendation, user_response, user_id, headlines, risk_profile)
 
     # Get another recommendation (this time it will consider the previous response if it was stored)
     query = "Should I invest in tech stocks?"
     recommendation = recommender.get_recommendation(query, user_id, risk_profile)
     print(f"\nQuery: {query}\n")
-    print(f"Recommendation: {recommendation}")
+    print(f"Recommendation: ")
+    print(recommendation)
 
 

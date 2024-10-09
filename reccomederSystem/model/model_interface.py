@@ -17,10 +17,33 @@ def model_call(prompt_data):
     temperature=0.2,
     top_p=0.7,
     max_tokens=1024,
-    stream=True
+    # stream=True
   )
 
-  for chunk in completion:
-    if chunk.choices[0].delta.content is not None:
-      print(chunk.choices[0].delta.content, end="")
+  # recommendation = ""
+  # for chunk in completion:
+  #     if chunk.choices[0].delta.content is not None:
+  #         recommendation += chunk.choices[0].delta.content
+
+  # return recommendation.strip()
+
+  # recommendation = ""
+  # for chunk in completion:
+  #     # Ensure you are checking for the content correctly
+  #     if "choices" in chunk and chunk.choices[0].delta.get("content") is not None:
+  #         recommendation += chunk.choices[0].delta["content"]
+
+  # return recommendation.strip()
+
+
+  # print(completion.choices)
+  return completion.choices[0].message.content
+
+
+  # reccomendations = []
+  # for chunk in completion:
+  #   if chunk.choices[0].delta.content is not None:
+  #     reccomendations.append(chunk.choices[0].delta.content)
+  #     # print(chunk.choices[0].delta.content, end="")
+  # return reccomendations
 
