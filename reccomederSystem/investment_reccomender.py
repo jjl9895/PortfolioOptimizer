@@ -53,7 +53,7 @@ Take into account the user's past responses to recommendations."""
             print("Error: Recommendation or user response is missing.")
 
 # Example usage
-if __name__ == "__main__":
+def reccomender():
     recommender = InvestmentRecommender()
     
     # Add some sample financial news
@@ -93,4 +93,4 @@ if __name__ == "__main__":
     print(f"Recommendation: ")
     print(recommendation)
 
-
+reccomender()
