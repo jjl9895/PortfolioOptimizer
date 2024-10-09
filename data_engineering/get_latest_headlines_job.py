@@ -24,33 +24,9 @@ def get_latest_news():
 
     news_text = response.choices[0].message.content
 
-    # Process the response and parse the news items
-    news_items = news_text.strip().split('\n')
-
-    titles = []
-    sources = []
-    dates = []
-    summaries = []
-
-    for item in news_items:
-        parts = item.split(' | ')
-        if len(parts) == 4:
-            titles.append(parts[0])
-            sources.append(parts[1])
-            dates.append(parts[2])
-            summaries.append(parts[3])
-
-    # Convert to Pandas DataFrame first
-    news_df = pd.DataFrame({
-        'Title': titles,
-        'Source': sources,
-        'Date': dates,
-        'Summary': summaries
-    })
-
-    return news_df
+    return news_text
 
 if __name__ == "__main__":
     if "--run_job" in sys.argv:
-        news_df = get_latest_news()
-        print(news_df)
+        news_text = get_latest_news()
+        print(news_text)
