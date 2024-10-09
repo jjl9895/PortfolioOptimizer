@@ -14,7 +14,10 @@ For the Cloudera Evolve24 Hackathon, this project focuses on optimizing Large La
 - Grabs Latest Headline Data using Perplexity AI.
 - Vectorization Storing with Pinecone.
 - Alpaca trading simulation with Alpaca API.
-- ChatGPT API integration for recommendations. 
+- ChatGPT API integration for recommendations.
+
+## Cloudera Workbench
+- This project utilized the Cloudera CML workbench, jobs for raw data ingestion, sessions for easy coding and optimizations, AMPs for usecases, and it's app deployment to host our application
 
 ## Prerequisites
 
