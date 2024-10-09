@@ -1,6 +1,6 @@
 # Portfolio Optimizer
 
-For the Cloudera Evolve24 Hackathon, this project focuses on optimizing Large Language Models (LLMs) through Retrieval-Augmented Generation (RAG) and advanced prompt engineering. The goal is to gather financial news headline data and, based on this data, recommend actions to perform on a simulated trading account via the Alpaca API (in paper trading mode). By combining user information with vectorized headline data, processed through Pinecone, and integrating it into the ChatGPT API, the system provides tailored financial recommendations for enhanced decision-making.
+For the Cloudera Evolve24 Hackathon, this project focuses on optimizing Large Language Models (LLMs) through Retrieval-Augmented Generation (RAG) and advanced prompt engineering. The goal is to gather financial news headline data and, based on this data, recommend actions to perform on a simulated trading account via the Alpaca API (in paper trading mode). By combining user information with vectorized headline data, processed through Pinecone, and integrating it into our own deployed model on Nvidia Nims, the system provides tailored financial recommendations for enhanced decision-making.
 
 ## Table of Contents
 
@@ -22,9 +22,8 @@ For the Cloudera Evolve24 Hackathon, this project focuses on optimizing Large La
 
 ## Prerequisites
 
-- Language/Platform version (e.g., Python 3.8 or higher)
+- Language/Platform version (Python 3.8 or higher)
 - Accounts and API keys for:
-  - [OpenAI](https://platform.openai.com/docs/overview)
   - [AlpacaAPI](https://alpaca.markets/)
   - [PerplexityAPI](https://docs.perplexity.ai/home)
   - [NvidiaAPI](https://www.nvidia.com/en-us/ai/#referrer=ai-subdomain?ncid=pa-srch-goog-772333&_bt=697697685508&_bk=nvidia%20api&_bm=e&_bn=g&_bg=165151891361&gad_source=1&gclid=EAIaIQobChMI37H2or-CiQMV3lxHAR1GAwRHEAAYASAAEgJfB_D_BwE)
