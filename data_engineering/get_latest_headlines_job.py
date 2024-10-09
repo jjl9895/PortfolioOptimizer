@@ -2,6 +2,7 @@ from openai import OpenAI
 import pandas as pd
 from dotenv import load_dotenv
 import os
+import sys
 
 # Load the environment variables from the .env file
 def get_latest_news():
@@ -49,3 +50,7 @@ def get_latest_news():
 
     return news_df
 
+if __name__ == "__main__":
+    if "--run_job" in sys.argv:
+        news_df = get_latest_news()
+        print(news_df)
