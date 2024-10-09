@@ -8,6 +8,7 @@ For the Cloudera Evolve24 Hackathon, this project focuses on optimizing Large La
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [License](#license)
+- [Cloudera Workbench](#clouderaworkbench)
 
 ## Features
  
