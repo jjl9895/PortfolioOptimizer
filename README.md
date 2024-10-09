@@ -8,7 +8,7 @@ For the Cloudera Evolve24 Hackathon, this project focuses on optimizing Large La
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [License](#license)
-- [Cloudera Workbench](#clouderaworkbench)
+- [Cloudera Workbench](#cloudera-workbench)
 
 ## Features
  
@@ -27,6 +27,8 @@ For the Cloudera Evolve24 Hackathon, this project focuses on optimizing Large La
   - [OpenAI](https://platform.openai.com/docs/overview)
   - [AlpacaAPI](https://alpaca.markets/)
   - [PerplexityAPI](https://docs.perplexity.ai/home)
+  - [NvidiaAPI](https://www.nvidia.com/en-us/ai/#referrer=ai-subdomain?ncid=pa-srch-goog-772333&_bt=697697685508&_bk=nvidia%20api&_bm=e&_bn=g&_bg=165151891361&gad_source=1&gclid=EAIaIQobChMI37H2or-CiQMV3lxHAR1GAwRHEAAYASAAEgJfB_D_BwE)
+  - [PineconeAPI](https://www.pinecone.io/?utm_term=pinecone%20serverless&utm_campaign=brand-us-p&utm_source=adwords&utm_medium=ppc&hsa_acc=3111363649&hsa_cam=16223687665&hsa_grp=133738612775&hsa_ad=582256510975&hsa_src=g&hsa_tgt=kwd-2270491656216&hsa_kw=pinecone%20serverless&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMIvbmTrr-CiQMVClFHAR0uxAaCEAAYASAAEgKpbfD_BwE)
 
 ## Installation
 **Clone the Repository**
