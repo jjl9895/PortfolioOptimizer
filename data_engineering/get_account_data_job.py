@@ -5,7 +5,6 @@ import os
 
 def get_trading_account_details():
     load_dotenv()
-    # Replace with your actual API key and secret key
     API_KEY = os.getenv('ALPACA_API_KEY')
     SECRET_KEY = os.getenv('ALPACA_SECRET_KEY')
     BASE_URL = 'https://paper-api.alpaca.markets'  
