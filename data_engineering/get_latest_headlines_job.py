@@ -24,6 +24,9 @@ def get_latest_news():
 
     news_text = response.choices[0].message.content
 
+    with open("news_output.txt", "w") as file:
+        file.write(news_text)
+
     return news_text
 
 if __name__ == "__main__":
