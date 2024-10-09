@@ -7,7 +7,7 @@ load_dotenv()
 def model_call(prompt_data):
   client = OpenAI(
     base_url = "https://integrate.api.nvidia.com/v1",
-    api_key = os.getenv('API_KEY')
+    api_key = os.getenv('NVIDIA_API_KEY')
   )
 
   prompt = "Give investment reccomndations using this context: "+prompt_data

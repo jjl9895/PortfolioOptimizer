@@ -41,6 +41,7 @@ Please provide a personalized investment recommendation for the following query:
 
 Your recommendation should be concise, well-reasoned, and tailored to the user's preferences and risk profile. 
 Take into account the user's past responses to recommendations."""
+        print(prompt)
 
         recommendation = model_call(prompt)
         return recommendation
