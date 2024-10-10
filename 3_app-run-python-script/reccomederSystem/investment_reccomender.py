@@ -1,5 +1,5 @@
-from vectorDB.vectorizer import Vectorizer
-from model.model_interface import model_call
+from .vectorDB.vectorizer import Vectorizer
+from .model.model_interface import model_call
 import json
 
 
