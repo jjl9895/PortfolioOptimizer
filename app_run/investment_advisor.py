@@ -20,7 +20,7 @@ def generate_initial_response(special_request="Please adjust my portfolio to hav
      # ]
      recommender = InvestmentRecommender()
      recommender.add_financial_news(headlines)
-     response = recommender.get_recommendation(special_request, "user123")
+     response = recommender.get_recommendation(special_request, "user123",str_account_data)
      """
      initial_prompt = f"Based on the following context: \n {vector_context}\n and my portfolio {str_account_data}, provide recommendations to the portfolio based on the following request: {special_request}"
      # Add formatting to get formatted response

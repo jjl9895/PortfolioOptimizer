@@ -11,7 +11,7 @@ class InvestmentRecommender:
     def add_financial_news(self, headlines, metadata=None):
         self.vectorizer.vectorize_and_store_news(headlines, metadata)
 
-    def get_recommendation(self, query, user_id, risk_profile='moderate'):
+    def get_recommendation(self, query, user_id, portfolio, risk_profile='moderate'):
         relevant_headlines = self.vectorizer.query_news(query)
         past_recommendations = self.vectorizer.query_recommendations(query, user_id)
         accepted, rejected = self.vectorizer.get_user_preferences(user_id)
@@ -38,8 +38,10 @@ User's rejected recommendations:
 User's risk profile: {risk_profile}
 
 Please provide a personalized investment recommendation for the following query: {query}
+Here is our current portfolio:
+{portfolio}
 
-Your recommendation should be concise, well-reasoned, and take into account the user's past responses to recommendations and provide the following information: Relevant financial news headlines; Portfolio Impact; Recommended Changes.
+Your recommendation should be concise, well-reasoned, and take into account the user's past responses to recommendations and provide the following information:Current portfolio; Recommended New Portfolio; Relevant financial news headlines; Portfolio Impact; Recommended Changes.
 """
         print(prompt)
 
