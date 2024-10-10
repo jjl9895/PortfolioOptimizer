@@ -29,7 +29,7 @@ def get_responses(question):
     yield status[-1]  # Yield the final status message
 
     # Final response
-    response_1 = generate_initial_response()
+    response_1 = generate_initial_response(question)
 
     # Yield the final response after all status updates are shown
     yield response_1

@@ -40,7 +40,15 @@ User's risk profile: {risk_profile}
 Please provide a personalized investment recommendation for the following query: {query}
 
 Your recommendation should be concise, well-reasoned, and tailored to the user's preferences and risk profile. 
-Take into account the user's past responses to recommendations."""
+Take into account the user's past responses to recommendations.
+Give me the information in this format: 
+
+Relevant Headlines: 
+
+Portfolio Impact: 
+
+Recommended Changes:
+"""
         print(prompt)
 
         recommendation = model_call(prompt)
