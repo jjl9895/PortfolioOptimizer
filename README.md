@@ -24,10 +24,19 @@ For the Cloudera Evolve24 Hackathon, this project focuses on optimizing Large La
 
 - Language/Platform version (Python 3.8 or higher)
 - Accounts and API keys for:
+  - [OpenAI](https://platform.openai.com/docs/overview)
+    - CHATGPT_API_KEY
   - [AlpacaAPI](https://alpaca.markets/)
+    - ALPACA_API_KEY
+    - ALPACA_SECRET_KEY
   - [PerplexityAPI](https://docs.perplexity.ai/home)
+    - PERPLEXITY_YOUR_API_KEY
   - [NvidiaAPI](https://www.nvidia.com/en-us/ai/#referrer=ai-subdomain?ncid=pa-srch-goog-772333&_bt=697697685508&_bk=nvidia%20api&_bm=e&_bn=g&_bg=165151891361&gad_source=1&gclid=EAIaIQobChMI37H2or-CiQMV3lxHAR1GAwRHEAAYASAAEgJfB_D_BwE)
+    - NVIDIA_API_KEY
   - [PineconeAPI](https://www.pinecone.io/?utm_term=pinecone%20serverless&utm_campaign=brand-us-p&utm_source=adwords&utm_medium=ppc&hsa_acc=3111363649&hsa_cam=16223687665&hsa_grp=133738612775&hsa_ad=582256510975&hsa_src=g&hsa_tgt=kwd-2270491656216&hsa_kw=pinecone%20serverless&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMIvbmTrr-CiQMVClFHAR0uxAaCEAAYASAAEgKpbfD_BwE)
+  - PINECONE_API_KEY
+  - FMP_API_KEY
+
 
 ## Installation
 **Clone the Repository**
