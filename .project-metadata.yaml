@@ -5,6 +5,21 @@ specification_version: 1.0
 prototype_version: 1.0
 date: "2024-10-09"
 
+environment_variables:
+  CHATGPT_API_KEY:
+    required: false
+  PERPLEXITY_YOUR_API_KEY:
+    required: false
+  ALPACA_API_KEY:
+    required: false
+  ALPACA_SECRET_KEY:
+    required: false
+  FMP_API_KEY:
+    required: false
+  NVIDIA_API_KEY:
+    required: false
+  PINECONE_API_KEY:
+    required: false
 
 runtimes:
   - editor: Workbench ## Other acceptable values are determined by the runtimes available in your CML environment
