@@ -39,15 +39,7 @@ User's risk profile: {risk_profile}
 
 Please provide a personalized investment recommendation for the following query: {query}
 
-Your recommendation should be concise, well-reasoned, and tailored to the user's preferences and risk profile. 
-Take into account the user's past responses to recommendations.
-Give me the information in this format: 
-
-Relevant Headlines: 
-
-Portfolio Impact: 
-
-Recommended Changes:
+Your recommendation should be concise, well-reasoned, and take into account the user's past responses to recommendations and provide the following information: Relevant financial news headlines; Portfolio Impact; Recommended Changes.
 """
         print(prompt)
 
