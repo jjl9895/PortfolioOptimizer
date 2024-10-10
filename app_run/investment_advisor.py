@@ -1,22 +1,23 @@
 import time
-import pandas as pd
-from api_integration.chatgpt_model import get_chatgpt_response
+from .api_integration.chatgpt_model import get_chatgpt_response
 
-from reccomederSystem.investment_reccomender import InvestmentRecommender
-from get_account_data_job import get_trading_account_details
+from .reccomederSystem.investment_reccomender import InvestmentRecommender
+from .get_account_data_job import get_trading_account_details
 import alpaca_trade_api as tradeapi
 
 def generate_initial_response(special_request="Please adjust my portfolio to have less risk and more long-term gain."):
      # Read data
-     df = pd.read_csv('../data_engineering/business_financial_news.csv')
+     headlines = []
+     with open('news_output.txt', "r") as file:
+         headlines = file.readlines()
      # Gets trading account details from Alpaca API 
      account_data = get_trading_account_details()
      str_account_data = str(account_data)
      # Generate prompts
-     headlines = [
-         f"This is the headline and summary data: {row['Title']}: {row['Summary']}"
-         for _, row in df.iterrows()
-     ]
+     # headlines = [
+     #     f"This is the headline and summary data: {row['Title']}: {row['Summary']}"
+     #     for _, row in df.iterrows()
+     # ]
      recommender = InvestmentRecommender()
      recommender.add_financial_news(headlines)
      response = recommender.get_recommendation(special_request, "user123")

@@ -1,15 +1,10 @@
-name: AMP Name Here
-description: Short description of what the AMP does.
-author: Your name or company name here
+name: Portfolio Optimizer
+description: This AMP will get your financial portfolio from the alpaca API and then use several api calls to LLMs and vectorization to generate reccomendations based on the most relevant news headlines for your portfolio.
+author: Team NYU
 specification_version: 1.0
 prototype_version: 1.0
-date: "YYYY-MM-DD"
+date: "2024-10-09"
 
-environment_variables:
-  RANDOM_VARIABLE_NAME:
-    default: "DEFAULT-VALUE"
-    description: "A description providing user clarifying information about the variable."
-    required: false
 
 runtimes:
   - editor: Workbench ## Other acceptable values are determined by the runtimes available in your CML environment
@@ -22,7 +17,7 @@ tasks:
   ## SESSION related AMP snippet
   - type: run_session
     name: Install Dependencies
-    script: 0_session-install-dependencies/install_dependencies.py
+    script: 0_session-install-dependencies/install-dependencies.py
     short_summary: Install Requirements and Dependencies
     kernel: python3
     cpu: 2
@@ -31,56 +26,25 @@ tasks:
   ## JOB related AMP snippet
   - type: create_job
     name: Sample Job
-    entity_label: sample_job
-    script: 1_job-run-python-job/job.py
-    arguments: None
-    cpu: 1
+    entity_label: headline_job
+    script: data_engineering/get_latest_headlines_job.py
+    arguments: --run_job
+    cpu: 2
     memory: 4
-    short_summary: Create job to install project dependencies.
+    short_summary: Create job to get latest headlines.
     environment:
       TASK_TYPE: CREATE/RUN_JOB
 
   - type: run_job
-    entity_label: sample_job
-    short_summary: Short summary here about running the job you just created.
-
-  ## MODEL related AMP snippet
-  - type: create_model
-    name: model-name
-    entity_label: sample-model-entity-label
-    description: create sample model hosted in CML. 
-    short_summary: Model name
-    default_resources:
-      cpu: 2
-      memory: 4
-      gpu: 1
-    default_replication_policy:
-      type: fixed
-      num_replicas: 1
-  
-  - type: build_model
-    name: Build Sample model
-    entity_label: sample-model-entity-label
-    comment: First build by the AMP
-    examples:
-      - request:
-          prompt: What is Cloudera?
-          temperature: 0
-          max_new_tokens: 50
-          repetition_penalty: 0.5
-
-    target_file_path: 2_model-deploy-model/launch-model.py
-    target_function_name: api_wrapper
-
-  - type: deploy_model
-    entity_label: sample-model-entity-label
+    entity_label: headline_job
+    short_summary: gets the recent headlines
 
   ## APPLICATION related AMP snippet
   - type: start_application
-    name: Application Name here
-    short_summary: Write a short summary of the app here.
-    long_summary: Write a longer summary about the app here.
-    subdomain: pick-a-domain-here
-    script: 3_app-run-python-script/app.py
+    name: Portfolio Optimizer
+    short_summary: Launches Portfolio Optimizer
+    long_summary: Launches the application and allows the user to ask for portfolio optimization reccommendations from a tailored LLM based on the recent headline news and their own portfolio. 
+    subdomain: portfolio-optimization
+    script: app_run/app.py
     environment_variables:
       TASK_TYPE: START_APPLICATION

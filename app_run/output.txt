@@ -1,0 +1,302 @@
+['This is the headline and summary data: 1. **Nearly 80% of U.S. Business Owners Anticipate Revenue Growth**: Nearly four out of five small and mid-sized business owners in the U.S. expect revenue growth in the next 12 months, despite concerns about inflation.', 'This is the headline and summary data: 2. **Current Price of Bitcoin**: As of 9 a.m. Eastern time, the price of Bitcoin is $61,766.31, showing a -1.06% change from yesterday.', 'This is the headline and summary data: 3. **Current Price of Gold**: Gold is trading at $2,619.63 per ounce, a -0.74% change from yesterday, with long-term expectations of continued price rises due to inflation.', "This is the headline and summary data: 4. **Earnings Plays and Transport Sector**: Investors are anticipating the release of Federal Reserve meeting minutes and significant bank earnings reports, with a focus on the transport sector's potential for catch-up trade.", 'This is the headline and summary data: 5. **Amazon Identified as Top Q4 Stock Choice**: Bill Baruch of Blue Line Futures recommends Amazon as a leading stock for the fourth quarter due to its decreased valuation and potential to exceed expectations.', "This is the headline and summary data: 6. **Dow Jones Transportation Average Analysis**: The Dow Jones Transportation Average remains nearly unchanged year-to-date, contrasting with the S&P 500's rise, prompting expectations of a gap closure.", 'This is the headline and summary data: 7. **Business Owners Optimistic About Local, National, and Global Economies**: 66% of business owners believe the local economy will improve, 60% believe the national economy will improve, and 57% believe the global economy will improve over the next 12 months.', 'This is the headline and summary data: 8. **Consumer Strength and Manufacturing Revival**: Stephanie Link from Hightower is optimistic about third-quarter earnings due to a stronger economy, consumer strength, and a revival in certain segments of the manufacturing industry.', "This is the headline and summary data: 9. **Bitcoin Price Volatility Decreasing**: Bitcoin's price volatility is steadily decreasing over the years, making it a more liquid and less volatile asset compared to other cryptocurrencies.", 'This is the headline and summary data: 10. **Gold as an Inflationary Hedge**: Investors are using gold as a hedge against inflation, with prices rising to an all-time high and expectations of continued increases.', 'This is the headline and summary data: 11. **Amazon Faces Downgrades**: Amazon has faced downgrades from Wells Fargo and Wolfe Research due to increasing competition in its cloud and e-commerce sectors.', 'This is the headline and summary data: 12. **Transportation and Logistics Stocks**: Analysts at Citi believe select Transportation and Logistics stocks are well-positioned for notable relative outperformance in the upcoming year.', 'This is the headline and summary data: 13. **Federal Reserve Meeting Minutes**: Market participants are eagerly anticipating the release of the Federal Reserve meeting minutes scheduled for 2 p.m. ET.', "This is the headline and summary data: 14. **Impact of Economic Conditions on Bitcoin**: Bitcoin's price is influenced by economic conditions, performing well when the economy is in good shape and people feel financially stable.", "This is the headline and summary data: 15. **Investing in Cryptocurrency-Related Stocks**: Investors can indirectly benefit from Bitcoin's performance by investing in publicly traded cryptocurrency exchanges, technology firms, and payment processors.", 'This is the headline and summary data: 16. **Diversification with Precious Metals**: Investors are diversifying their portfolios with gold, silver, platinum, and palladium to hedge against inflation and market volatility.', 'This is the headline and summary data: 17. **Global Economic Optimism**: 57% of U.S. business owners believe the global economy will improve over the next 12 months.', "This is the headline and summary data: 18. **Transport Sector Disparity**: The Dow Jones Transportation Average has remained nearly unchanged year-to-date, contrasting sharply with the S&P 500's significant rise.", 'This is the headline and summary data: 19. **Bank Earnings Reports**: Significant bank earnings reports are set to commence the third-quarter earnings season later this week.', 'This is the headline and summary data: 20. **Market Open October 9, 2024**: Real-time market data and analysis for the opening of the US markets on October 9, 2024.', 'This is the headline and summary data: 21. **Inflation Impact on Gold Prices**: Gold prices have risen significantly due to inflation, with expectations of continued increases as an inflationary hedge.', 'This is the headline and summary data: 22. **Interest Rate Changes and Bitcoin**: Bitcoin is less affected by interest rate changes compared to stocks but is influenced by overall economic conditions.', 'This is the headline and summary data: 23. **Women and Minority Business Owners Expansion Plans**: A majority of women and minority business owners plan to expand their businesses over the next 12 months.', 'This is the headline and summary data: 24. **Investment in Employee Education**: Many business owners plan to hire and invest in employee education, such as training and mentoring programs.', "This is the headline and summary data: 25. **Bitcoin Price Fluctuations**: Bitcoin's price is vulnerable to extreme volatility and sudden price fluctuations, though its volatility is decreasing over time.", 'This is the headline and summary data: 26. **Gold and Silver Volatility**: Gold is less volatile than silver, which can have major price swings due to its industrial uses.', "This is the headline and summary data: 27. **Atlanta Fed's GDP Tracker**: The Atlanta Fed's tracker indicates a growth rate of 3.2%, which is positive for earnings expectations.", 'This is the headline and summary data: 28. **Consumer Strength**: Consumer strength is a key factor in the optimistic outlook for third-quarter earnings.', 'This is the headline and summary data: 29. **Relative Value Opportunity in Amazon**: Bill Baruch sees Amazon as a relative value opportunity due to its decreased valuation and potential to exceed expectations.', 'This is the headline and summary data: 30. **Potential for Transport Sector Catch-Up**: Analysts believe the gap between the Dow Jones Transportation Average and the S&P 500 will close, making transport sector stocks attractive for investment.']
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+An error occurred: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]

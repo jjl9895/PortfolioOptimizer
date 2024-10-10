@@ -1,6 +1,9 @@
 import os
+# import importlib
 import gradio as gr
 import time
+import sys
+from app_run.investment_advisor import generate_initial_response
 
 def get_responses(question):
     # Initialize status messages
@@ -26,9 +29,7 @@ def get_responses(question):
     yield status[-1]  # Yield the final status message
 
     # Final response
-    response_1 = (
-        "Hello"
-    )
+    response_1 = generate_initial_response()
 
     # Yield the final response after all status updates are shown
     yield response_1
@@ -42,9 +43,10 @@ def main():
             question_input = gr.Textbox(label="Financial Advisor Prompt", placeholder="Enter your question here")
             response_output = gr.Textbox(label="LLM Recommendation")
             submit_button = gr.Button("Submit")
+            reload_button = gr.Button("Reload")  # Adding a reload button
         
         submit_button.click(fn=get_responses, inputs=question_input, outputs=response_output)
-
+        reload_button.click(fn=reset_fields, inputs=[], outputs=[question_input, response_output])
     # Launch Gradio app
     print("Launching Gradio app")
     demo.launch(
@@ -54,6 +56,10 @@ def main():
         server_port=8080
     )
     print("Gradio app ready")
+
+def reset_fields():
+    # This function will reset the input and output fields
+    return "", ""
 
 if __name__ == "__main__":
     main()
