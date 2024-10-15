@@ -5,7 +5,7 @@ This project won 1st Place at the Cloudera Evolve24 Hackathon.
 For the Cloudera Evolve24 Hackathon, this project focuses on optimizing Large Language Models (LLMs) through Retrieval-Augmented Generation (RAG) using a Pinecone vector database. The goal is to gather financial news headline data and, based on this data, recommend actions to perform on a simulated trading account via the Alpaca API (in paper trading mode). By combining user information with vectorized headline data, processed through Pinecone, and integrating it into our own deployed model on Nvidia's NIM platform, the system provides tailored financial recommendations for enhanced decision-making.
 
 ## Demo and video:
-Demo link: https://315c591179f68ee8fd.gradio.live/
+~~Demo link: https://315c591179f68ee8fd.gradio.live/~~ The demo is no longer live after the duration of the hackathon.
 
 Video:
 https://youtu.be/Uzz8NhnQHXE
